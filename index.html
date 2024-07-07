@@ -2,12 +2,20 @@
 <html>
 <head>
     <title>Document</title>
+    <style>
+        .dice{
+            text-align: center;
+            margin: 5px;
+            padding: auto;
+        }
+    </style>
 </head>
 <body>
+    <div class="dice">
     <img src="./img/dice (6).png" alt="" id="dice" height="100px" />
     <br> <br>
     <button type="button" onclick="rollDice()">Roll The Dice</button>
-
+    </div>
     <script>
         const diceImg = document.getElementById("dice");
         function rollDice() {
